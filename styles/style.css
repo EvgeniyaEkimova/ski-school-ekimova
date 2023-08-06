@@ -24,6 +24,14 @@ color:darkgreen
     color:chartreuse
 }
 
+/* ? */
+.footer-socials .logo-twitter {
+    color:brown
+}
+
+footer a {
+    color:chocolate
+}
 
 /* Шапка сайта */
 
@@ -31,8 +39,14 @@ color:darkgreen
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 500;
+    
 }
 
+.header>a {
+    text-decoration: none;
+}
+
+/* section-lead  */
 .lead-title {
     font-family: Oswald;
     font-size: 60px;
@@ -48,7 +62,49 @@ color:darkgreen
     text-align: center;
 }
 
+/* section-desc  */
 
+.desc-title, .desc-caption {
+    font-family: Oswald;
+}
+
+/* Учиться с нами увлекательно и эффективно */
+.desc-title {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.desc-caption {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.desc p {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+
+}
+/* ? */
+.slogan>h4 {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+   /*??btn {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+
+} */
 
 
 
