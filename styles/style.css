@@ -4,7 +4,7 @@
     box-sizing: border-box  ;
 }
 .container {
-    width: 1278 px;
+    width: 1278px;
     margin: 0 auto;
     border: 1px solid blue;
 }
@@ -98,6 +98,9 @@
     text-decoration: none;
 }
 
+.img {
+    padding: 526px 0 180px;
+}
   
 
 /* footer */
