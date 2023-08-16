@@ -50,6 +50,7 @@
     font-family: Oswald;
     font-size: 60px;
     font-weight: 500;
+    text-transform: uppercase;
 
 }
 
@@ -70,14 +71,31 @@
     color: #060D10;
 }
 
+.desc-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+/* .desc-item {
+    flex-basis: calc(50% - px);
+    padding: ;
+} */
+
 .desc-title, .desc-caption {
     font-family: Oswald;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .desc-title {
     text-align: center;
     font-size: 48px;
+    
       
 }
 
@@ -97,13 +115,16 @@
 /* section-slogan */
 
 
-.slogan {
+.slogan-title {
     padding: 170px 0;
     color: #060D10;
     font-family: Oswald;
     font-size: 48px;
     font-weight: 500;
     text-align: center;
+    text-transform: uppercase;
+    
+    
     
 }
 .slogan-btn {
@@ -112,6 +133,7 @@
     font-size: 36px;
     font-weight: 500;
     text-decoration: none;
+    
 }
 
 
@@ -123,6 +145,14 @@
     color: #FFF;
     font-family: Montserrat;
     font-weight: 500;
+}
+
+.footer-wrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .footer-title {
     font-size: 20px;
@@ -146,8 +176,22 @@
 }
 
 .footer-socials {
+    display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
+
 }
+.social-item {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 /* montserrat-regular - cyrillic-ext_latin */
